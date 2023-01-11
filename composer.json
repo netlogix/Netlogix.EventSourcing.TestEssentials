@@ -1,6 +1,7 @@
 {
     "name": "netlogix/event-sourcing-test-essentials",
     "type": "neos-package",
+    "license": "MIT",
     "description": "Test helpers for netlogix/event-sourcing",
     "require": {
         "neos/flow": "^8.2",
