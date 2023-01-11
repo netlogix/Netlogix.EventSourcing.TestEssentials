@@ -1,0 +1,26 @@
+{
+    "name": "netlogix/event-sourcing-test-essentials",
+    "type": "neos-package",
+    "description": "Test helpers for netlogix/event-sourcing",
+    "require": {
+        "neos/flow": "^8.2",
+        "neos/event-sourcing": "^2.6",
+        "netlogix/event-sourcing": "^1.0",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Netlogix\\EventSourcing\\TestEssentials\\": "Classes/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Netlogix\\EventSourcing\\TestEssentials\\Tests\\": "Tests/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Netlogix.EventSourcing.TestEssentials"
+        }
+    }
+}

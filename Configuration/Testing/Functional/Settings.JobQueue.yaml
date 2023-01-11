@@ -1,0 +1,9 @@
+Flowpack:
+  JobQueue:
+    Common:
+      queues:
+        'neos-eventsourcing':
+          className: Flowpack\JobQueue\Common\Queue\FakeQueue
+          executeIsolated: false
+          options:
+            async: false

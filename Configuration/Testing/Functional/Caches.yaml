@@ -1,0 +1,4 @@
+Netlogix_EventSourcing_TestEssentials_AllowedListeners:
+  frontend: Neos\Cache\Frontend\VariableFrontend
+  backend: Neos\Cache\Backend\FileBackend
+  persistent: true
