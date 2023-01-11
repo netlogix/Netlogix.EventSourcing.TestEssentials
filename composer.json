@@ -6,7 +6,7 @@
     "require": {
         "neos/flow": "^8.2",
         "neos/event-sourcing": "^2.6",
-        "netlogix/event-sourcing": "^1.0",
+        "netlogix/event-sourcing": "dev-main || ^1.0",
         "phpunit/phpunit": "^9.5"
     },
     "autoload": {
