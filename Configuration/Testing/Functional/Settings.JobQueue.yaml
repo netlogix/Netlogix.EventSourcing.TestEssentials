@@ -3,7 +3,6 @@ Flowpack:
     Common:
       queues:
         'neos-eventsourcing':
-          className: Flowpack\JobQueue\Common\Queue\FakeQueue
-          executeIsolated: false
+          className: Netlogix\EventSourcing\TestEssentials\Queue\SameProcessFakeQueue
           options:
             async: false
