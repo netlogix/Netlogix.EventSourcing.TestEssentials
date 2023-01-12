@@ -1,0 +1,2 @@
+Neos\Flow\Persistence\PersistenceManagerInterface:
+  className: Netlogix\EventSourcing\TestEssentials\Doctrine\TestingPersistenceManager

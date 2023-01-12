@@ -1,0 +1,7 @@
+Netlogix:
+  EventSourcing:
+    TestEssentials:
+      testingPersistenceManager:
+
+        # Additional raw sql statements to set up database parts not covered by Doctrine/ORM
+        setupDatabaseStatements: []
